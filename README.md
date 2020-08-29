@@ -8,7 +8,12 @@ Using C language for TCP UDP communication under Linux
 - Reverse从共享内存读数据，反转，udp发送给printing进程.
 - Printing接受数据并打印.
 
-### communication
-- client to server: tcp
-- server and reverse：共享内存、信号量
-- reverse to printing：udp
+### how
+
+```shell
+make
+./server
+./reverse
+./printing
+./client
+```
